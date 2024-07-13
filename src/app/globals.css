@@ -1,0 +1,51 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content_bg {
+    background-image: url('../../public/image/hero_bg.webp');
+    height: 686px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content_bg2 {
+    background-image: url('../../public/image/campus_bg.webp');
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Example styles for CountSlider component */
+.relative {
+    position: relative;
+  }
+  
+  .translate-x-0 {
+    transform: translateX(0);
+  }
+  
+  .translate-x-full {
+    transform: translateX(100%);
+  }
+  
+  /* Adjust as needed for responsiveness */
+  @media (min-width: 768px) {
+    .md\:translate-x-20 {
+      transform: translateX(20%);
+    }
+  }
+  
+  
+ 
+  
+
+@media screen and (max-width: 768px) {
+    .content_bg {
+        height: 500px;
+    }
+    
+}
+
+
